@@ -41,7 +41,7 @@
                             </ul>
                         </section>
 
-                        <section>
+                        <section class="mb-10">
                             <h5 class="uppercase font-bold mb-3 text-base">Doodles</h5>
 
                             <ul class="list-reset">
@@ -56,6 +56,16 @@
                                 </li>
                                 <li class="text-sm leading-loose">
                                     <router-link class="text-black" :to="{ name: 'wallpapers' }">Wallpapers</router-link>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h5 class="uppercase font-bold mb-3 text-base">Stats</h5>
+
+                            <ul class="list-reset">
+                                <li class="text-sm leading-loose">
+                                    <router-link class="text-black" :to="{ name: 'site-stats' }">Site stats</router-link>
                                 </li>
                             </ul>
                         </section>
