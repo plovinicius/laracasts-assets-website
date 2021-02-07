@@ -70,6 +70,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -982,11 +1012,84 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", { staticClass: "font-normal text-3xl leading-none" }, [
-    _vm._v("Full Logo")
-  ])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "font-normal text-3xl leading-none mb-8" }, [
+        _vm._v("\n        Full Logo\n    ")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-10" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow flex items-center justify-center mb-6 rounded-lg",
+            staticStyle: { height: "382px" }
+          },
+          [_c("img", { attrs: { src: "/images/logo.svg", alt: "logo" } })]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Original Logo on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/logo.svg" }
+            },
+            [_vm._v("logo.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow flex items-center justify-center mb-6 bg-blue-550 rounded-lg",
+            staticStyle: { height: "382px" }
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/negative-logo.svg", alt: "negative-logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Negative logo on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/negative-logo.svg" }
+            },
+            [_vm._v("negative-logo.svg")]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

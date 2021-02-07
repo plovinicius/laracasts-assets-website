@@ -6,3 +6,7 @@
 * {
     font-family: 'Open Sans';
 }
+
+.container {
+    max-width: 920px;
+}
