@@ -4,9 +4,10 @@ import Colors from './components/Colors.vue';
 import Typography from './components/Typography.vue';
 import Mascot from './components/Mascot.vue';
 import Illustrations from './components/Illustrations.vue';
-import LoadersAnimations from './components/LoadersAnimations.vue';
 import Wallpapers from './components/Wallpapers.vue';
 import NotFound from './components/NotFound.vue';
+
+let LoadersAnimations = () => import(/* webpackChunkName: "loaders" */ './components/LoadersAnimations.vue');
 
 export default {
     mode: 'history',
